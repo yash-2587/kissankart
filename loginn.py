@@ -12,7 +12,7 @@ def login():
         password = request.form['password']
         host = "localhost"
         dbusername = "root"
-        dbpassword = "Dwarka@612"
+        dbpassword = "2629"
         dbname = "kissankart"
 
         # Connect to the database
@@ -48,7 +48,7 @@ def signuptesting():
         # Database connection details
         host = "localhost"
         dbusername = "root"
-        dbpassword = "Dwarka@612"
+        dbpassword = "2629"
         dbname = "kissankart"
 
         # Connect to the database
@@ -85,7 +85,7 @@ def forgot_password():
     if request.method == 'POST':
         host = "localhost"
         dbusername = "root"
-        dbpassword = "Dwarka@612"
+        dbpassword = "2629"
         dbname = "kissankart"
 
         # Retrieve username and phone from the form
@@ -120,7 +120,7 @@ def reset_password_form():
     if request.method == 'POST':
         host = "localhost"
         dbusername = "root"
-        dbpassword = "Dwarka@612"
+        dbpassword = "2629"
         dbname = "kissankart"
 
         # Retrieve username and new password from the form
